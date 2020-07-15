@@ -5,7 +5,7 @@ import: github.com/negasus/traefik-plugin-geoip2
 
 summary: '[GeoIP2] Add Country Header'
 
-testGeoIP2:
+testData:
   FromHeader: 'X-Real-IP'
   CountryHeader: 'X-Country'
-  Filename: 'path_to_database.mmdb'
+  Filename: 'GeoLite2-Country.mmdb'
