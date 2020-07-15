@@ -1,0 +1,11 @@
+displayName: GeoIP2 Plugin
+type: middleware
+
+import: github.com/negasus/traefik-plugin-geoip2
+
+summary: '[GeoIP2] Add Country Header'
+
+testGeoIP2:
+  FromHeader: 'X-Real-IP'
+  CountryHeader: 'X-Country'
+  Filename: 'path_to_database.mmdb'
