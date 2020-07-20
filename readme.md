@@ -1,5 +1,8 @@
 # Traefik Plugin GeoIP2
 
+> plugin in development
+> also see https://github.com/negasus/traefik-plugin-ip2location
+
 Add a request header with Country ISO code detected by IP with MaxMind GeoIP database 
 
 ## Configuration
